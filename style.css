@@ -1,0 +1,51 @@
+body{
+    font-family:Arial;
+    text-align:center;
+    background:#f2f2f2;
+}
+
+.container{
+    background:white;
+    width:400px;
+    margin:50px auto;
+    padding:30px;
+    border-radius:20px;
+}
+
+.pesquisa{
+    position:relative;
+    width:220px;
+    margin:auto;
+}
+
+input{
+    padding:10px;
+    width:200px;
+}
+
+#sugestoes{
+    position:absolute;
+    width:220px;
+    background:white;
+    border:1px solid #ccc;
+    text-align:left;
+}
+
+#sugestoes div{
+    padding:8px;
+    cursor:pointer;
+}
+
+#sugestoes div:hover{
+    background:#eee;
+}
+
+button{
+    margin-top:15px;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+#resultado img{
+    width:250px;
+}
